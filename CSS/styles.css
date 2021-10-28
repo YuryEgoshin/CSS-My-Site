@@ -16,6 +16,7 @@ font-family: 'Merriweather', serif;
   padding-top: 100px;
 
 }
+
 .bottom-container{
 background-color: #66BFBF;
 padding-top: 50px;
@@ -98,6 +99,11 @@ a {
 .footer-link {
   color: #11999E;
         padding: 50px;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+}
+.footer-link:hover {
+  color: #EAF6F6;
 }
 .trademark {
   margin-top: 50px;
@@ -106,7 +112,7 @@ a {
 }
 .btn {
 margin-top: 50px;
-   border-radius: 10px;
+   border-radius: 7px;
    color: #EAF6F6;
    font-family: 'Montserrat', sans-serif;
    font-size: 1.5rem;
@@ -119,4 +125,9 @@ margin-top: 50px;
    display: inline-block;
    cursor: pointer;
    text-align: center;
+}
+.btn:hover {
+   background: #B0CDCD;
+   border-radius: 7px;
+   text-decoration: none;
 }
